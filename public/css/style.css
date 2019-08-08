@@ -1,0 +1,132 @@
+html,
+body {
+  height: 100%;
+}
+p {
+  font-size: 14px;
+}
+.gradient-color {
+  background: rgb(0, 123, 195) !important;
+  background: -moz-linear-gradient(30deg, rgb(0, 123, 195), rgb(46, 184, 183)) !important;
+  background: -webkit-linear-gradient(30deg, rgb(0, 123, 195), rgb(46, 184, 183)) !important;
+  background: linear-gradient(30deg, rgb(0, 123, 195), rgb(46, 184, 183)) !important;
+}
+
+.sr-wrapper {
+  display: flex;
+  flex: 1;
+  background: #fff;
+  flex-direction: column;
+  width: 95%;
+  max-width: 90% !important;
+  margin: 20px auto;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 1px #1b8fa5;
+}
+.sr-header {
+  padding: 13px 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.sr-body {
+  padding: 20px;
+}
+.sr-footer {
+  display: inline-block;
+  /* padding: 20px; */
+}
+.sr-footer button {
+  /*border-radius: 0px 0px 3px 3px;
+  padding-top: 17px;
+  padding-bottom: 17px;*/
+  font-size: 14px;
+}
+.btn-staking-registration {
+  color: #ffffff !important;
+  margin: 5px;
+  background-color: #00bcd4 !important;
+  border-color: #00bcd4 !important;
+}
+.sr-form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sr-label,
+.sr-form-control,
+.sr-input-group-text {
+  font-size: 14px !important;
+}
+.sr-form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #00bdd4;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 189, 212, 0.17);
+}
+.sr-input-group-text {
+  background-color: #feb301 !important;
+  border: 1px solid #feb301 !important;
+  color: #fff !important;
+}
+
+/* Data Vault Home */
+.section-wrapper {
+  background: #fff;
+  width: 95%;
+  max-width: 720px !important;
+  margin: 20px auto;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 1px #1b8fa5;
+  /* padding: 20px; */
+  font-size: 14px;
+}
+
+.data-vault-home-header {
+  display: flex;
+  align-items: center;
+}
+.home-balance-wrapper {
+  flex: 1;
+}
+.home-balance-amount {
+  font-size: x-large;
+}
+.home-balance-currency {
+  color: #ff9800;
+}
+
+/* Data Vault Widget */
+.dv-widget-wrapper {
+}
+.dv-widget-title {
+  padding: 13px 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.dv-widget-body {
+  padding: 20px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 40em) {
+  .responsiveTable tbody tr {
+    margin-bottom: 10px;
+    border: 1px solid rgb(222, 226, 230) !important;
+  }
+}
